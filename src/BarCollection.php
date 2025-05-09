@@ -14,7 +14,7 @@ final readonly class BarCollection
 
     public function __construct()
     {
-        $this->bars = MutableMap::default();
+        $this->bars = new MutableMap([]);
     }
 
     public function add(Bar ...$bars): void

@@ -9,7 +9,7 @@
         "ramsey/uuid": "^4.7"
     },
     "require-dev": {
-        "phpstan/phpstan": "2.1.11"
+        "phpstan/phpstan": "2.1.14"
     },
     "autoload": {
         "psr-4": {
