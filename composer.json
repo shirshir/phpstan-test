@@ -1,0 +1,19 @@
+{
+    "name": "test/phpstan-test",
+    "type": "project",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require": {
+        "php": "^8.4",
+        "azjezz/psl": "^3.2",
+        "ramsey/uuid": "^4.7"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "2.1.11"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhpstanTest\\": "src/"
+        }
+    }
+}
